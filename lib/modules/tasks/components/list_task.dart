@@ -59,7 +59,7 @@ class _ListTaskState extends State<ListTask> {
           else {
             return 0;
           }
-        });  
+        });
       });
     }
 

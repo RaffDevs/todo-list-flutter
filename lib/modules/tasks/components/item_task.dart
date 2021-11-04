@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:teste/main.dart';
 
 class TaskItem extends StatefulWidget {
-   const TaskItem({ 
+  const TaskItem({ 
     Key? key,
     required this.task,
     required this.handleComplete,
@@ -66,7 +66,7 @@ class _TaskItemState extends State<TaskItem> {
 
           ScaffoldMessenger.of(context).showSnackBar(snack);
         });
-        
+
       },
       child: Card(
         elevation: 5,
